@@ -28,7 +28,7 @@ header .contenitore {
     clear: both;
 }
 
-aside {
+aside.left {
     width: 25%;
     height: 400px;
     padding: 5px 20px;
@@ -50,6 +50,13 @@ main {
 main .contenitore {
     height: 100%;
     background-color: purple;
+}
+
+aside.right {
+    width: 25%;
+    height: 290px;
+    padding: 5px 20px;
+    float: right;
 }
 
 footer {
