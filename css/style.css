@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+header {
+    height: 200px;
+    padding: 15px 20px 5px;
+}
+
+header .contenitore {
+    height: 100%;
+    background-color: yellow;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+aside {
+    width: 25%;
+    height: 400px;
+    padding: 5px 20px;
+    float: left;
+}
+
+aside .contenitore {
+    height: 100%;
+    background-color: violet;
+}
+
+main {
+    width: 50%;
+    height: 600px;
+    padding: 5px 0;
+    float: left;
+}
+
+main .contenitore {
+    height: 100%;
+    background-color: purple;
+}
+
+footer {
+    height: 100px;
+    padding: 5px 20px 15px;
+}
+
+footer .contenitore {
+    height: 100%;
+    background-color: lightblue;
+}
